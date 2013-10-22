@@ -33,6 +33,6 @@ public class CoreDomainIntegrationTest {
 
     AllOrdersEvent allOrders = orderService.requestAllOrders(new RequestAllOrdersEvent());
 
-    assertEquals(1, allOrders.getOrdersDetails().size());
+    assertEquals(10, allOrders.getOrdersDetails().size());
   }
 }

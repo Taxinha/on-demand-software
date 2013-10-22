@@ -12,6 +12,7 @@ apply plugin: 'maven'
 
 group="com.simplicityitself"
 
+
 version="DEVELOPER"
 //Can be used in a Jenkins environment to dynamically set the version number from the build.
 if (System.getenv("BUILD_NUMBER")) {
